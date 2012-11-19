@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		144E3B0315E35AB20074E96F /* MergedSocialStreamAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 144E3B0215E35AB20074E96F /* MergedSocialStreamAdapter.m */; };
+		144E3B0F15E36D4D0074E96F /* TwitterSocialStreamModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 144E3B0E15E36D4D0074E96F /* TwitterSocialStreamModel.m */; };
+		144E3B1B15E38C5B0074E96F /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 144E3B1A15E38C5B0074E96F /* Accounts.framework */; };
+		144E3B2115E38D870074E96F /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 144E3B2015E38D870074E96F /* Twitter.framework */; };
+		1456DDCA15F0D1F20048C769 /* YelpSocialStreamModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1456DDC915F0D1F20048C769 /* YelpSocialStreamModel.m */; };
+		1456DDCE15F0D3900048C769 /* YelpSocialStreamDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1456DDCD15F0D38F0048C769 /* YelpSocialStreamDataModel.m */; };
+		1456DDD115F0D5DE0048C769 /* YelpSocialStreamTableViewCellCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1456DDD015F0D5DE0048C769 /* YelpSocialStreamTableViewCellCell.m */; };
+		1456DDD315F0D7840048C769 /* YelpSocialStreamTableViewCellCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1456DDD215F0D7840048C769 /* YelpSocialStreamTableViewCellCell.xib */; };
+		1456DDD515F0D99F0048C769 /* yelpLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1456DDD415F0D99F0048C769 /* yelpLogo.png */; };
+		1456DFCC15E76AB00064F6B2 /* InstagramSocialStreamDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1456DFCB15E76AB00064F6B2 /* InstagramSocialStreamDetailViewController.m */; };
+		1456DFD015E76ABC0064F6B2 /* FourSquareSocialStreamDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1456DFCE15E76ABC0064F6B2 /* FourSquareSocialStreamDetailViewController.m */; };
+		1456DFD115E76ABC0064F6B2 /* FourSquareSocialStreamDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1456DFCF15E76ABC0064F6B2 /* FourSquareSocialStreamDetailViewController.xib */; };
+		1456DFD515E76ACC0064F6B2 /* SocialStreamDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1456DFD315E76ACC0064F6B2 /* SocialStreamDetailViewController.m */; };
+		1456DFD615E76ACC0064F6B2 /* SocialStreamDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1456DFD415E76ACC0064F6B2 /* SocialStreamDetailViewController.xib */; };
+		1456DFDB15E76B330064F6B2 /* FourSquareSocialStreamTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1456DFD915E76B330064F6B2 /* FourSquareSocialStreamTableViewCell.m */; };
+		1456DFDC15E76B330064F6B2 /* FourSquareSocialStreamTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1456DFDA15E76B330064F6B2 /* FourSquareSocialStreamTableViewCell.xib */; };
+		1456DFE015E76B450064F6B2 /* SocialStreamTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1456DFDE15E76B450064F6B2 /* SocialStreamTableViewCell.m */; };
+		1456DFE115E76B450064F6B2 /* SocialStreamTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1456DFDF15E76B450064F6B2 /* SocialStreamTableViewCell.xib */; };
+		146D82E815EB6C6300A1BB52 /* twitter.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 146D82E715EB6C6200A1BB52 /* twitter.jpeg */; };
+		147F72C715E2163300ACCFD0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 147F72C615E2163300ACCFD0 /* CoreLocation.framework */; };
+		149F631015EB58C8001482DD /* TwitterSocialStreamTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 149F630F15EB58C8001482DD /* TwitterSocialStreamTableViewCell.m */; };
+		149F631315EB58DC001482DD /* TwitterSocialStreamTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 149F631215EB58DC001482DD /* TwitterSocialStreamTableViewCell.xib */; };
+		149F631615EB5BF4001482DD /* TwitterSocialStreamDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 149F631515EB5BF4001482DD /* TwitterSocialStreamDataModel.m */; };
+		14D727BF15E4C90C006CA5CC /* FoursquareSocialStreamDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D727BE15E4C90C006CA5CC /* FoursquareSocialStreamDataModel.m */; };
+		14D727DB15E50044006CA5CC /* instagram.png in Resources */ = {isa = PBXBuildFile; fileRef = 14D727D915E50044006CA5CC /* instagram.png */; };
+		14D727DC15E50044006CA5CC /* FourSquare.png in Resources */ = {isa = PBXBuildFile; fileRef = 14D727DA15E50044006CA5CC /* FourSquare.png */; };
+		14EAE31B15DE1EB700468F4A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14EAE31A15DE1EB700468F4A /* UIKit.framework */; };
+		14EAE31D15DE1EB700468F4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14EAE31C15DE1EB700468F4A /* Foundation.framework */; };
+		14EAE31F15DE1EB700468F4A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14EAE31E15DE1EB700468F4A /* CoreGraphics.framework */; };
+		14EAE32515DE1EB700468F4A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 14EAE32315DE1EB700468F4A /* InfoPlist.strings */; };
+		14EAE32715DE1EB700468F4A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EAE32615DE1EB700468F4A /* main.m */; };
+		14EAE32B15DE1EB700468F4A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EAE32A15DE1EB700468F4A /* AppDelegate.m */; };
+		14EAE34815DE1FC500468F4A /* SocialStreamModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EAE34715DE1FC500468F4A /* SocialStreamModel.m */; };
+		14EAE34B15DE1FE100468F4A /* FoursquareSocialStreamModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EAE34A15DE1FE100468F4A /* FoursquareSocialStreamModel.m */; };
+		14EAE34E15DE1FF300468F4A /* InstagramSocialStreamModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EAE34D15DE1FF300468F4A /* InstagramSocialStreamModel.m */; };
+		14EAE35815DE207F00468F4A /* ReachabilityTR.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EAE35515DE207F00468F4A /* ReachabilityTR.m */; };
+		14EAE35915DE207F00468F4A /* HttpConnectionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EAE35715DE207F00468F4A /* HttpConnectionHandler.m */; };
+		14EAE35F15DE222900468F4A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14EAE35E15DE222900468F4A /* SystemConfiguration.framework */; };
+		5B8E55D615FF257900E62FAB /* BaseScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8E55D315FF257900E62FAB /* BaseScrollView.m */; };
+		5B8E55D715FF257900E62FAB /* UIView+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8E55D515FF257900E62FAB /* UIView+Extensions.m */; };
+		5B8E55DA15FF263900E62FAB /* ScrollableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8E55D915FF263800E62FAB /* ScrollableViewController.m */; };
+		5BDE22BF1656081800F91D09 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BDE22BE1656081800F91D09 /* Default-568h@2x.png */; };
+		6822DE7915FA23120042415A /* TwitterSocialStreamDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6822DE7715FA23120042415A /* TwitterSocialStreamDetailViewController.m */; };
+		6822DE7A15FA23120042415A /* TwitterSocialStreamDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6822DE7815FA23120042415A /* TwitterSocialStreamDetailViewController.xib */; };
+		68534A2215F0E1A4000EE0BC /* YelpSocialStreamDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68534A2015F0E1A4000EE0BC /* YelpSocialStreamDetailViewController.m */; };
+		68534A2315F0E1A4000EE0BC /* YelpSocialStreamDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68534A2115F0E1A4000EE0BC /* YelpSocialStreamDetailViewController.xib */; };
+		685C233815F5D42400F41E1D /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 685C233715F5D42400F41E1D /* Utility.m */; };
+		685C233A15F5E1B400F41E1D /* TwitterBig.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 685C233915F5E1B400F41E1D /* TwitterBig.jpg */; };
+		686D8CBD15F71F35000BDAB8 /* PageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 686D8CBB15F71C59000BDAB8 /* PageControl.m */; };
+		68793D5B15FE10750010E702 /* No Image.png in Resources */ = {isa = PBXBuildFile; fileRef = 68793D5A15FE10750010E702 /* No Image.png */; };
+		68A3C23E15E3BE89005A98E1 /* AsyncImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A3C23215E3BC37005A98E1 /* AsyncImageView.m */; };
+		68A3C23F15E3BE89005A98E1 /* SocialStreamDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A3C23515E3BC52005A98E1 /* SocialStreamDataModel.m */; };
+		68A3C24015E3BE89005A98E1 /* InstaGramSocialStreamDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A3C23715E3BC52005A98E1 /* InstaGramSocialStreamDataModel.m */; };
+		68A3F92415EF483500A0B710 /* SocialStreamBlenderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A3F92215EF483500A0B710 /* SocialStreamBlenderViewController.m */; };
+		68A3F92515EF483500A0B710 /* SocialStreamBlenderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68A3F92315EF483500A0B710 /* SocialStreamBlenderViewController.xib */; };
+		68A3F93215EF783700A0B710 /* SocialStreamsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A3F93015EF775000A0B710 /* SocialStreamsTableViewController.m */; };
+		68A3F93315EF784600A0B710 /* SocialStreamsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68A3F93115EF775100A0B710 /* SocialStreamsTableViewController.xib */; };
+		68C9D1B215F4BEE1003FC21B /* InstagramSocialStreamDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68C9D1B115F4BEE1003FC21B /* InstagramSocialStreamDetailViewController.xib */; };
+		68C9D1B615F4C063003FC21B /* SocialStreamReviewsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C9D1B515F4C063003FC21B /* SocialStreamReviewsTableViewCell.m */; };
+		68C9D1B815F4C09D003FC21B /* SocialStreamReviewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68C9D1B715F4C09D003FC21B /* SocialStreamReviewsTableViewCell.xib */; };
+		68C9D1BA15F4EE8B003FC21B /* Like Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 68C9D1B915F4EE8B003FC21B /* Like Button.png */; };
+		EB94D34015FE1BA200C1F06D /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB94D33B15FE1BA200C1F06D /* SettingViewController.m */; };
+		EB94D34115FE1BA200C1F06D /* SettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB94D33C15FE1BA200C1F06D /* SettingViewController.xib */; };
+		EB94D34215FE1BA200C1F06D /* SocialStreamSettingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EB94D33E15FE1BA200C1F06D /* SocialStreamSettingTableViewCell.m */; };
+		EB94D34315FE1BA200C1F06D /* SocialStreamSettingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB94D33F15FE1BA200C1F06D /* SocialStreamSettingTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		144E3B0115E35AB20074E96F /* MergedSocialStreamAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MergedSocialStreamAdapter.h; sourceTree = "<group>"; };
+		144E3B0215E35AB20074E96F /* MergedSocialStreamAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MergedSocialStreamAdapter.m; sourceTree = "<group>"; };
+		144E3B0D15E36D4D0074E96F /* TwitterSocialStreamModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterSocialStreamModel.h; sourceTree = "<group>"; };
+		144E3B0E15E36D4D0074E96F /* TwitterSocialStreamModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterSocialStreamModel.m; sourceTree = "<group>"; };
+		144E3B1A15E38C5B0074E96F /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		144E3B2015E38D870074E96F /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		1456DDC815F0D1F20048C769 /* YelpSocialStreamModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YelpSocialStreamModel.h; sourceTree = "<group>"; };
+		1456DDC915F0D1F20048C769 /* YelpSocialStreamModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YelpSocialStreamModel.m; sourceTree = "<group>"; };
+		1456DDCC15F0D38F0048C769 /* YelpSocialStreamDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YelpSocialStreamDataModel.h; sourceTree = "<group>"; };
+		1456DDCD15F0D38F0048C769 /* YelpSocialStreamDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YelpSocialStreamDataModel.m; sourceTree = "<group>"; };
+		1456DDCF15F0D5DE0048C769 /* YelpSocialStreamTableViewCellCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YelpSocialStreamTableViewCellCell.h; sourceTree = "<group>"; };
+		1456DDD015F0D5DE0048C769 /* YelpSocialStreamTableViewCellCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YelpSocialStreamTableViewCellCell.m; sourceTree = "<group>"; };
+		1456DDD215F0D7840048C769 /* YelpSocialStreamTableViewCellCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YelpSocialStreamTableViewCellCell.xib; sourceTree = "<group>"; };
+		1456DDD415F0D99F0048C769 /* yelpLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yelpLogo.png; sourceTree = "<group>"; };
+		1456DFCA15E76AB00064F6B2 /* InstagramSocialStreamDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstagramSocialStreamDetailViewController.h; sourceTree = "<group>"; };
+		1456DFCB15E76AB00064F6B2 /* InstagramSocialStreamDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstagramSocialStreamDetailViewController.m; sourceTree = "<group>"; };
+		1456DFCD15E76ABC0064F6B2 /* FourSquareSocialStreamDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourSquareSocialStreamDetailViewController.h; sourceTree = "<group>"; };
+		1456DFCE15E76ABC0064F6B2 /* FourSquareSocialStreamDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourSquareSocialStreamDetailViewController.m; sourceTree = "<group>"; };
+		1456DFCF15E76ABC0064F6B2 /* FourSquareSocialStreamDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FourSquareSocialStreamDetailViewController.xib; sourceTree = "<group>"; };
+		1456DFD215E76ACC0064F6B2 /* SocialStreamDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialStreamDetailViewController.h; sourceTree = "<group>"; };
+		1456DFD315E76ACC0064F6B2 /* SocialStreamDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialStreamDetailViewController.m; sourceTree = "<group>"; };
+		1456DFD415E76ACC0064F6B2 /* SocialStreamDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SocialStreamDetailViewController.xib; sourceTree = "<group>"; };
+		1456DFD815E76B330064F6B2 /* FourSquareSocialStreamTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourSquareSocialStreamTableViewCell.h; sourceTree = "<group>"; };
+		1456DFD915E76B330064F6B2 /* FourSquareSocialStreamTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourSquareSocialStreamTableViewCell.m; sourceTree = "<group>"; };
+		1456DFDA15E76B330064F6B2 /* FourSquareSocialStreamTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FourSquareSocialStreamTableViewCell.xib; sourceTree = "<group>"; };
+		1456DFDD15E76B450064F6B2 /* SocialStreamTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialStreamTableViewCell.h; sourceTree = "<group>"; };
+		1456DFDE15E76B450064F6B2 /* SocialStreamTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialStreamTableViewCell.m; sourceTree = "<group>"; };
+		1456DFDF15E76B450064F6B2 /* SocialStreamTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SocialStreamTableViewCell.xib; sourceTree = "<group>"; };
+		146D82E715EB6C6200A1BB52 /* twitter.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = twitter.jpeg; sourceTree = "<group>"; };
+		147F72C615E2163300ACCFD0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		149F630E15EB58C8001482DD /* TwitterSocialStreamTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterSocialStreamTableViewCell.h; sourceTree = "<group>"; };
+		149F630F15EB58C8001482DD /* TwitterSocialStreamTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterSocialStreamTableViewCell.m; sourceTree = "<group>"; };
+		149F631215EB58DC001482DD /* TwitterSocialStreamTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TwitterSocialStreamTableViewCell.xib; sourceTree = "<group>"; };
+		149F631415EB5BF4001482DD /* TwitterSocialStreamDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterSocialStreamDataModel.h; sourceTree = "<group>"; };
+		149F631515EB5BF4001482DD /* TwitterSocialStreamDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterSocialStreamDataModel.m; sourceTree = "<group>"; };
+		14D727BD15E4C90C006CA5CC /* FoursquareSocialStreamDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoursquareSocialStreamDataModel.h; sourceTree = "<group>"; };
+		14D727BE15E4C90C006CA5CC /* FoursquareSocialStreamDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoursquareSocialStreamDataModel.m; sourceTree = "<group>"; };
+		14D727D915E50044006CA5CC /* instagram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instagram.png; sourceTree = "<group>"; };
+		14D727DA15E50044006CA5CC /* FourSquare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FourSquare.png; sourceTree = "<group>"; };
+		14EAE31615DE1EB700468F4A /* SocialStreams.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialStreams.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14EAE31A15DE1EB700468F4A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		14EAE31C15DE1EB700468F4A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		14EAE31E15DE1EB700468F4A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		14EAE32215DE1EB700468F4A /* SocialStreams-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SocialStreams-Info.plist"; sourceTree = "<group>"; };
+		14EAE32415DE1EB700468F4A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		14EAE32615DE1EB700468F4A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; wrapsLines = 0; };
+		14EAE32815DE1EB700468F4A /* SocialStreams-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SocialStreams-Prefix.pch"; sourceTree = "<group>"; };
+		14EAE32915DE1EB700468F4A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		14EAE32A15DE1EB700468F4A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		14EAE34615DE1FC500468F4A /* SocialStreamModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialStreamModel.h; sourceTree = "<group>"; };
+		14EAE34715DE1FC500468F4A /* SocialStreamModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialStreamModel.m; sourceTree = "<group>"; };
+		14EAE34915DE1FE100468F4A /* FoursquareSocialStreamModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoursquareSocialStreamModel.h; sourceTree = "<group>"; };
+		14EAE34A15DE1FE100468F4A /* FoursquareSocialStreamModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoursquareSocialStreamModel.m; sourceTree = "<group>"; };
+		14EAE34C15DE1FF300468F4A /* InstagramSocialStreamModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstagramSocialStreamModel.h; sourceTree = "<group>"; };
+		14EAE34D15DE1FF300468F4A /* InstagramSocialStreamModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstagramSocialStreamModel.m; sourceTree = "<group>"; };
+		14EAE35415DE207F00468F4A /* ReachabilityTR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReachabilityTR.h; sourceTree = "<group>"; };
+		14EAE35515DE207F00468F4A /* ReachabilityTR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReachabilityTR.m; sourceTree = "<group>"; };
+		14EAE35615DE207F00468F4A /* HttpConnectionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpConnectionHandler.h; sourceTree = "<group>"; };
+		14EAE35715DE207F00468F4A /* HttpConnectionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpConnectionHandler.m; sourceTree = "<group>"; };
+		14EAE35E15DE222900468F4A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		5B8E55D215FF257900E62FAB /* BaseScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseScrollView.h; path = SocialStreams/BaseScrollView.h; sourceTree = "<group>"; };
+		5B8E55D315FF257900E62FAB /* BaseScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseScrollView.m; path = SocialStreams/BaseScrollView.m; sourceTree = "<group>"; };
+		5B8E55D415FF257900E62FAB /* UIView+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Extensions.h"; path = "SocialStreams/UIView+Extensions.h"; sourceTree = "<group>"; };
+		5B8E55D515FF257900E62FAB /* UIView+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Extensions.m"; path = "SocialStreams/UIView+Extensions.m"; sourceTree = "<group>"; };
+		5B8E55D815FF263800E62FAB /* ScrollableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScrollableViewController.h; path = SocialStreams/ScrollableViewController.h; sourceTree = "<group>"; };
+		5B8E55D915FF263800E62FAB /* ScrollableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScrollableViewController.m; path = SocialStreams/ScrollableViewController.m; sourceTree = "<group>"; };
+		5BDE22BE1656081800F91D09 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		6822DE7615FA23120042415A /* TwitterSocialStreamDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterSocialStreamDetailViewController.h; sourceTree = "<group>"; };
+		6822DE7715FA23120042415A /* TwitterSocialStreamDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterSocialStreamDetailViewController.m; sourceTree = "<group>"; };
+		6822DE7815FA23120042415A /* TwitterSocialStreamDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TwitterSocialStreamDetailViewController.xib; sourceTree = "<group>"; };
+		68534A1F15F0E1A4000EE0BC /* YelpSocialStreamDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YelpSocialStreamDetailViewController.h; sourceTree = "<group>"; };
+		68534A2015F0E1A4000EE0BC /* YelpSocialStreamDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YelpSocialStreamDetailViewController.m; sourceTree = "<group>"; };
+		68534A2115F0E1A4000EE0BC /* YelpSocialStreamDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YelpSocialStreamDetailViewController.xib; sourceTree = "<group>"; };
+		685C233615F5D42400F41E1D /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		685C233715F5D42400F41E1D /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		685C233915F5E1B400F41E1D /* TwitterBig.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TwitterBig.jpg; sourceTree = "<group>"; };
+		686D8CBA15F71C59000BDAB8 /* PageControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PageControl.h; sourceTree = "<group>"; };
+		686D8CBB15F71C59000BDAB8 /* PageControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageControl.m; sourceTree = "<group>"; };
+		68793D5A15FE10750010E702 /* No Image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "No Image.png"; sourceTree = "<group>"; };
+		68A3C23115E3BC37005A98E1 /* AsyncImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AsyncImageView.h; sourceTree = "<group>"; };
+		68A3C23215E3BC37005A98E1 /* AsyncImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AsyncImageView.m; sourceTree = "<group>"; };
+		68A3C23415E3BC52005A98E1 /* SocialStreamDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocialStreamDataModel.h; sourceTree = "<group>"; };
+		68A3C23515E3BC52005A98E1 /* SocialStreamDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocialStreamDataModel.m; sourceTree = "<group>"; };
+		68A3C23615E3BC52005A98E1 /* InstaGramSocialStreamDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InstaGramSocialStreamDataModel.h; sourceTree = "<group>"; };
+		68A3C23715E3BC52005A98E1 /* InstaGramSocialStreamDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstaGramSocialStreamDataModel.m; sourceTree = "<group>"; };
+		68A3F92115EF483500A0B710 /* SocialStreamBlenderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SocialStreamBlenderViewController.h; path = ../SocialStreamBlenderViewController.h; sourceTree = "<group>"; };
+		68A3F92215EF483500A0B710 /* SocialStreamBlenderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SocialStreamBlenderViewController.m; path = ../SocialStreamBlenderViewController.m; sourceTree = "<group>"; };
+		68A3F92315EF483500A0B710 /* SocialStreamBlenderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SocialStreamBlenderViewController.xib; path = ../SocialStreamBlenderViewController.xib; sourceTree = "<group>"; };
+		68A3F92F15EF775000A0B710 /* SocialStreamsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SocialStreamsTableViewController.h; path = SocialStreams/SocialStreamsTableViewController.h; sourceTree = SOURCE_ROOT; };
+		68A3F93015EF775000A0B710 /* SocialStreamsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SocialStreamsTableViewController.m; path = SocialStreams/SocialStreamsTableViewController.m; sourceTree = SOURCE_ROOT; };
+		68A3F93115EF775100A0B710 /* SocialStreamsTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SocialStreamsTableViewController.xib; path = SocialStreams/SocialStreamsTableViewController.xib; sourceTree = SOURCE_ROOT; };
+		68C9D1B115F4BEE1003FC21B /* InstagramSocialStreamDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InstagramSocialStreamDetailViewController.xib; sourceTree = "<group>"; };
+		68C9D1B415F4C062003FC21B /* SocialStreamReviewsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialStreamReviewsTableViewCell.h; sourceTree = "<group>"; };
+		68C9D1B515F4C063003FC21B /* SocialStreamReviewsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialStreamReviewsTableViewCell.m; sourceTree = "<group>"; };
+		68C9D1B715F4C09D003FC21B /* SocialStreamReviewsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SocialStreamReviewsTableViewCell.xib; sourceTree = "<group>"; };
+		68C9D1B915F4EE8B003FC21B /* Like Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Like Button.png"; sourceTree = "<group>"; };
+		EB94D33A15FE1BA200C1F06D /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		EB94D33B15FE1BA200C1F06D /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		EB94D33C15FE1BA200C1F06D /* SettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingViewController.xib; sourceTree = "<group>"; };
+		EB94D33D15FE1BA200C1F06D /* SocialStreamSettingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialStreamSettingTableViewCell.h; sourceTree = "<group>"; };
+		EB94D33E15FE1BA200C1F06D /* SocialStreamSettingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialStreamSettingTableViewCell.m; sourceTree = "<group>"; };
+		EB94D33F15FE1BA200C1F06D /* SocialStreamSettingTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SocialStreamSettingTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14EAE31315DE1EB700468F4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				144E3B2115E38D870074E96F /* Twitter.framework in Frameworks */,
+				144E3B1B15E38C5B0074E96F /* Accounts.framework in Frameworks */,
+				147F72C715E2163300ACCFD0 /* CoreLocation.framework in Frameworks */,
+				14EAE35F15DE222900468F4A /* SystemConfiguration.framework in Frameworks */,
+				14EAE31B15DE1EB700468F4A /* UIKit.framework in Frameworks */,
+				14EAE31D15DE1EB700468F4A /* Foundation.framework in Frameworks */,
+				14EAE31F15DE1EB700468F4A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1456DFC815E76A5C0064F6B2 /* SocialStreamDetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1456DFD215E76ACC0064F6B2 /* SocialStreamDetailViewController.h */,
+				1456DFD315E76ACC0064F6B2 /* SocialStreamDetailViewController.m */,
+				1456DFD415E76ACC0064F6B2 /* SocialStreamDetailViewController.xib */,
+				1456DFCD15E76ABC0064F6B2 /* FourSquareSocialStreamDetailViewController.h */,
+				1456DFCE15E76ABC0064F6B2 /* FourSquareSocialStreamDetailViewController.m */,
+				1456DFCF15E76ABC0064F6B2 /* FourSquareSocialStreamDetailViewController.xib */,
+				1456DFCA15E76AB00064F6B2 /* InstagramSocialStreamDetailViewController.h */,
+				1456DFCB15E76AB00064F6B2 /* InstagramSocialStreamDetailViewController.m */,
+				68C9D1B115F4BEE1003FC21B /* InstagramSocialStreamDetailViewController.xib */,
+				68534A1F15F0E1A4000EE0BC /* YelpSocialStreamDetailViewController.h */,
+				68534A2015F0E1A4000EE0BC /* YelpSocialStreamDetailViewController.m */,
+				68534A2115F0E1A4000EE0BC /* YelpSocialStreamDetailViewController.xib */,
+				68C9D1B415F4C062003FC21B /* SocialStreamReviewsTableViewCell.h */,
+				68C9D1B715F4C09D003FC21B /* SocialStreamReviewsTableViewCell.xib */,
+				68C9D1B515F4C063003FC21B /* SocialStreamReviewsTableViewCell.m */,
+				6822DE7615FA23120042415A /* TwitterSocialStreamDetailViewController.h */,
+				6822DE7715FA23120042415A /* TwitterSocialStreamDetailViewController.m */,
+				6822DE7815FA23120042415A /* TwitterSocialStreamDetailViewController.xib */,
+			);
+			path = SocialStreamDetailViewController;
+			sourceTree = "<group>";
+		};
+		1456DFD715E76B160064F6B2 /* SocialStreamTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				1456DFDD15E76B450064F6B2 /* SocialStreamTableViewCell.h */,
+				1456DFDE15E76B450064F6B2 /* SocialStreamTableViewCell.m */,
+				1456DFDF15E76B450064F6B2 /* SocialStreamTableViewCell.xib */,
+				1456DFD815E76B330064F6B2 /* FourSquareSocialStreamTableViewCell.h */,
+				1456DFD915E76B330064F6B2 /* FourSquareSocialStreamTableViewCell.m */,
+				1456DFDA15E76B330064F6B2 /* FourSquareSocialStreamTableViewCell.xib */,
+				149F630E15EB58C8001482DD /* TwitterSocialStreamTableViewCell.h */,
+				149F630F15EB58C8001482DD /* TwitterSocialStreamTableViewCell.m */,
+				149F631215EB58DC001482DD /* TwitterSocialStreamTableViewCell.xib */,
+				1456DDCF15F0D5DE0048C769 /* YelpSocialStreamTableViewCellCell.h */,
+				1456DDD015F0D5DE0048C769 /* YelpSocialStreamTableViewCellCell.m */,
+				1456DDD215F0D7840048C769 /* YelpSocialStreamTableViewCellCell.xib */,
+			);
+			path = SocialStreamTableViewCell;
+			sourceTree = "<group>";
+		};
+		14EAE30B15DE1EB700468F4A = {
+			isa = PBXGroup;
+			children = (
+				5BDE22BE1656081800F91D09 /* Default-568h@2x.png */,
+				144E3B2015E38D870074E96F /* Twitter.framework */,
+				144E3B1A15E38C5B0074E96F /* Accounts.framework */,
+				147F72C615E2163300ACCFD0 /* CoreLocation.framework */,
+				14EAE35E15DE222900468F4A /* SystemConfiguration.framework */,
+				14EAE32015DE1EB700468F4A /* SocialStreams */,
+				14EAE31915DE1EB700468F4A /* Frameworks */,
+				14EAE31715DE1EB700468F4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14EAE31715DE1EB700468F4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14EAE31615DE1EB700468F4A /* SocialStreams.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14EAE31915DE1EB700468F4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14EAE31A15DE1EB700468F4A /* UIKit.framework */,
+				14EAE31C15DE1EB700468F4A /* Foundation.framework */,
+				14EAE31E15DE1EB700468F4A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		14EAE32015DE1EB700468F4A /* SocialStreams */ = {
+			isa = PBXGroup;
+			children = (
+				6866A02A15FF3D2900A29538 /* BaseScrollView */,
+				EB94D32E15FE19B200C1F06D /* SettingViewController */,
+				14EAE35315DE205E00468F4A /* HttpConnectionHandler */,
+				14EAE34515DE1F8100468F4A /* SocialStreams */,
+				685C233615F5D42400F41E1D /* Utility.h */,
+				685C233715F5D42400F41E1D /* Utility.m */,
+				68A3C23115E3BC37005A98E1 /* AsyncImageView.h */,
+				68A3C23215E3BC37005A98E1 /* AsyncImageView.m */,
+				14EAE32915DE1EB700468F4A /* AppDelegate.h */,
+				14EAE32A15DE1EB700468F4A /* AppDelegate.m */,
+				686D8CBA15F71C59000BDAB8 /* PageControl.h */,
+				686D8CBB15F71C59000BDAB8 /* PageControl.m */,
+				14EAE32115DE1EB700468F4A /* Supporting Files */,
+			);
+			path = SocialStreams;
+			sourceTree = "<group>";
+		};
+		14EAE32115DE1EB700468F4A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				68793D5A15FE10750010E702 /* No Image.png */,
+				685C233915F5E1B400F41E1D /* TwitterBig.jpg */,
+				68C9D1B915F4EE8B003FC21B /* Like Button.png */,
+				1456DDD415F0D99F0048C769 /* yelpLogo.png */,
+				146D82E715EB6C6200A1BB52 /* twitter.jpeg */,
+				14D727D915E50044006CA5CC /* instagram.png */,
+				14D727DA15E50044006CA5CC /* FourSquare.png */,
+				14EAE32215DE1EB700468F4A /* SocialStreams-Info.plist */,
+				14EAE32315DE1EB700468F4A /* InfoPlist.strings */,
+				14EAE32615DE1EB700468F4A /* main.m */,
+				14EAE32815DE1EB700468F4A /* SocialStreams-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		14EAE34515DE1F8100468F4A /* SocialStreams */ = {
+			isa = PBXGroup;
+			children = (
+				68A3F92115EF483500A0B710 /* SocialStreamBlenderViewController.h */,
+				68A3F92215EF483500A0B710 /* SocialStreamBlenderViewController.m */,
+				68A3F92315EF483500A0B710 /* SocialStreamBlenderViewController.xib */,
+				68A3F92F15EF775000A0B710 /* SocialStreamsTableViewController.h */,
+				68A3F93015EF775000A0B710 /* SocialStreamsTableViewController.m */,
+				68A3F93115EF775100A0B710 /* SocialStreamsTableViewController.xib */,
+				144E3B0115E35AB20074E96F /* MergedSocialStreamAdapter.h */,
+				144E3B0215E35AB20074E96F /* MergedSocialStreamAdapter.m */,
+				68C9D1BB15F4FD7A003FC21B /* SocialStreamModel */,
+				1456DFD715E76B160064F6B2 /* SocialStreamTableViewCell */,
+				1456DFC815E76A5C0064F6B2 /* SocialStreamDetailViewController */,
+				68789CD015F4FF1400C8C6A6 /* SocialStreamDataModel */,
+			);
+			path = SocialStreams;
+			sourceTree = "<group>";
+		};
+		14EAE35315DE205E00468F4A /* HttpConnectionHandler */ = {
+			isa = PBXGroup;
+			children = (
+				14EAE35415DE207F00468F4A /* ReachabilityTR.h */,
+				14EAE35515DE207F00468F4A /* ReachabilityTR.m */,
+				14EAE35615DE207F00468F4A /* HttpConnectionHandler.h */,
+				14EAE35715DE207F00468F4A /* HttpConnectionHandler.m */,
+			);
+			path = HttpConnectionHandler;
+			sourceTree = "<group>";
+		};
+		6866A02A15FF3D2900A29538 /* BaseScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				5B8E55D215FF257900E62FAB /* BaseScrollView.h */,
+				5B8E55D315FF257900E62FAB /* BaseScrollView.m */,
+				5B8E55D415FF257900E62FAB /* UIView+Extensions.h */,
+				5B8E55D515FF257900E62FAB /* UIView+Extensions.m */,
+				5B8E55D815FF263800E62FAB /* ScrollableViewController.h */,
+				5B8E55D915FF263800E62FAB /* ScrollableViewController.m */,
+			);
+			name = BaseScrollView;
+			sourceTree = "<group>";
+		};
+		68789CD015F4FF1400C8C6A6 /* SocialStreamDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				68A3C23415E3BC52005A98E1 /* SocialStreamDataModel.h */,
+				68A3C23515E3BC52005A98E1 /* SocialStreamDataModel.m */,
+				68A3C23615E3BC52005A98E1 /* InstaGramSocialStreamDataModel.h */,
+				68A3C23715E3BC52005A98E1 /* InstaGramSocialStreamDataModel.m */,
+				14D727BD15E4C90C006CA5CC /* FoursquareSocialStreamDataModel.h */,
+				14D727BE15E4C90C006CA5CC /* FoursquareSocialStreamDataModel.m */,
+				149F631415EB5BF4001482DD /* TwitterSocialStreamDataModel.h */,
+				149F631515EB5BF4001482DD /* TwitterSocialStreamDataModel.m */,
+				1456DDCC15F0D38F0048C769 /* YelpSocialStreamDataModel.h */,
+				1456DDCD15F0D38F0048C769 /* YelpSocialStreamDataModel.m */,
+			);
+			name = SocialStreamDataModel;
+			sourceTree = "<group>";
+		};
+		68C9D1BB15F4FD7A003FC21B /* SocialStreamModel */ = {
+			isa = PBXGroup;
+			children = (
+				14EAE34615DE1FC500468F4A /* SocialStreamModel.h */,
+				14EAE34715DE1FC500468F4A /* SocialStreamModel.m */,
+				14EAE34915DE1FE100468F4A /* FoursquareSocialStreamModel.h */,
+				14EAE34A15DE1FE100468F4A /* FoursquareSocialStreamModel.m */,
+				14EAE34C15DE1FF300468F4A /* InstagramSocialStreamModel.h */,
+				14EAE34D15DE1FF300468F4A /* InstagramSocialStreamModel.m */,
+				144E3B0D15E36D4D0074E96F /* TwitterSocialStreamModel.h */,
+				144E3B0E15E36D4D0074E96F /* TwitterSocialStreamModel.m */,
+				1456DDC815F0D1F20048C769 /* YelpSocialStreamModel.h */,
+				1456DDC915F0D1F20048C769 /* YelpSocialStreamModel.m */,
+			);
+			name = SocialStreamModel;
+			sourceTree = "<group>";
+		};
+		EB94D32E15FE19B200C1F06D /* SettingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EB94D33A15FE1BA200C1F06D /* SettingViewController.h */,
+				EB94D33B15FE1BA200C1F06D /* SettingViewController.m */,
+				EB94D33C15FE1BA200C1F06D /* SettingViewController.xib */,
+				EB94D33D15FE1BA200C1F06D /* SocialStreamSettingTableViewCell.h */,
+				EB94D33E15FE1BA200C1F06D /* SocialStreamSettingTableViewCell.m */,
+				EB94D33F15FE1BA200C1F06D /* SocialStreamSettingTableViewCell.xib */,
+			);
+			name = SettingViewController;
+			path = HttpConnectionHandler;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14EAE31515DE1EB700468F4A /* SocialStreams */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14EAE34215DE1EB800468F4A /* Build configuration list for PBXNativeTarget "SocialStreams" */;
+			buildPhases = (
+				14EAE31215DE1EB700468F4A /* Sources */,
+				14EAE31315DE1EB700468F4A /* Frameworks */,
+				14EAE31415DE1EB700468F4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocialStreams;
+			productName = SocialStreams;
+			productReference = 14EAE31615DE1EB700468F4A /* SocialStreams.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14EAE30D15DE1EB700468F4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 14EAE31015DE1EB700468F4A /* Build configuration list for PBXProject "SocialStreams" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 14EAE30B15DE1EB700468F4A;
+			productRefGroup = 14EAE31715DE1EB700468F4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14EAE31515DE1EB700468F4A /* SocialStreams */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14EAE31415DE1EB700468F4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68A3F93315EF784600A0B710 /* SocialStreamsTableViewController.xib in Resources */,
+				14EAE32515DE1EB700468F4A /* InfoPlist.strings in Resources */,
+				14D727DB15E50044006CA5CC /* instagram.png in Resources */,
+				14D727DC15E50044006CA5CC /* FourSquare.png in Resources */,
+				1456DFD115E76ABC0064F6B2 /* FourSquareSocialStreamDetailViewController.xib in Resources */,
+				1456DFD615E76ACC0064F6B2 /* SocialStreamDetailViewController.xib in Resources */,
+				1456DFDC15E76B330064F6B2 /* FourSquareSocialStreamTableViewCell.xib in Resources */,
+				1456DFE115E76B450064F6B2 /* SocialStreamTableViewCell.xib in Resources */,
+				149F631315EB58DC001482DD /* TwitterSocialStreamTableViewCell.xib in Resources */,
+				146D82E815EB6C6300A1BB52 /* twitter.jpeg in Resources */,
+				68A3F92515EF483500A0B710 /* SocialStreamBlenderViewController.xib in Resources */,
+				1456DDD315F0D7840048C769 /* YelpSocialStreamTableViewCellCell.xib in Resources */,
+				1456DDD515F0D99F0048C769 /* yelpLogo.png in Resources */,
+				68534A2315F0E1A4000EE0BC /* YelpSocialStreamDetailViewController.xib in Resources */,
+				68C9D1B215F4BEE1003FC21B /* InstagramSocialStreamDetailViewController.xib in Resources */,
+				68C9D1B815F4C09D003FC21B /* SocialStreamReviewsTableViewCell.xib in Resources */,
+				68C9D1BA15F4EE8B003FC21B /* Like Button.png in Resources */,
+				685C233A15F5E1B400F41E1D /* TwitterBig.jpg in Resources */,
+				6822DE7A15FA23120042415A /* TwitterSocialStreamDetailViewController.xib in Resources */,
+				68793D5B15FE10750010E702 /* No Image.png in Resources */,
+				EB94D34115FE1BA200C1F06D /* SettingViewController.xib in Resources */,
+				EB94D34315FE1BA200C1F06D /* SocialStreamSettingTableViewCell.xib in Resources */,
+				5BDE22BF1656081800F91D09 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14EAE31215DE1EB700468F4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				686D8CBD15F71F35000BDAB8 /* PageControl.m in Sources */,
+				68A3F93215EF783700A0B710 /* SocialStreamsTableViewController.m in Sources */,
+				68A3C23E15E3BE89005A98E1 /* AsyncImageView.m in Sources */,
+				68A3C23F15E3BE89005A98E1 /* SocialStreamDataModel.m in Sources */,
+				68A3C24015E3BE89005A98E1 /* InstaGramSocialStreamDataModel.m in Sources */,
+				14EAE32715DE1EB700468F4A /* main.m in Sources */,
+				14EAE32B15DE1EB700468F4A /* AppDelegate.m in Sources */,
+				14EAE34815DE1FC500468F4A /* SocialStreamModel.m in Sources */,
+				14EAE34B15DE1FE100468F4A /* FoursquareSocialStreamModel.m in Sources */,
+				14EAE34E15DE1FF300468F4A /* InstagramSocialStreamModel.m in Sources */,
+				14EAE35815DE207F00468F4A /* ReachabilityTR.m in Sources */,
+				14EAE35915DE207F00468F4A /* HttpConnectionHandler.m in Sources */,
+				144E3B0315E35AB20074E96F /* MergedSocialStreamAdapter.m in Sources */,
+				144E3B0F15E36D4D0074E96F /* TwitterSocialStreamModel.m in Sources */,
+				14D727BF15E4C90C006CA5CC /* FoursquareSocialStreamDataModel.m in Sources */,
+				1456DFCC15E76AB00064F6B2 /* InstagramSocialStreamDetailViewController.m in Sources */,
+				1456DFD015E76ABC0064F6B2 /* FourSquareSocialStreamDetailViewController.m in Sources */,
+				1456DFD515E76ACC0064F6B2 /* SocialStreamDetailViewController.m in Sources */,
+				1456DFDB15E76B330064F6B2 /* FourSquareSocialStreamTableViewCell.m in Sources */,
+				1456DFE015E76B450064F6B2 /* SocialStreamTableViewCell.m in Sources */,
+				149F631015EB58C8001482DD /* TwitterSocialStreamTableViewCell.m in Sources */,
+				149F631615EB5BF4001482DD /* TwitterSocialStreamDataModel.m in Sources */,
+				68A3F92415EF483500A0B710 /* SocialStreamBlenderViewController.m in Sources */,
+				1456DDCA15F0D1F20048C769 /* YelpSocialStreamModel.m in Sources */,
+				1456DDCE15F0D3900048C769 /* YelpSocialStreamDataModel.m in Sources */,
+				1456DDD115F0D5DE0048C769 /* YelpSocialStreamTableViewCellCell.m in Sources */,
+				68534A2215F0E1A4000EE0BC /* YelpSocialStreamDetailViewController.m in Sources */,
+				68C9D1B615F4C063003FC21B /* SocialStreamReviewsTableViewCell.m in Sources */,
+				685C233815F5D42400F41E1D /* Utility.m in Sources */,
+				6822DE7915FA23120042415A /* TwitterSocialStreamDetailViewController.m in Sources */,
+				EB94D34015FE1BA200C1F06D /* SettingViewController.m in Sources */,
+				EB94D34215FE1BA200C1F06D /* SocialStreamSettingTableViewCell.m in Sources */,
+				5B8E55D615FF257900E62FAB /* BaseScrollView.m in Sources */,
+				5B8E55D715FF257900E62FAB /* UIView+Extensions.m in Sources */,
+				5B8E55DA15FF263900E62FAB /* ScrollableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		14EAE32315DE1EB700468F4A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14EAE32415DE1EB700468F4A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14EAE34015DE1EB800468F4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Vaibhav Rampuria (QZEGG5LN89)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PROVISIONING_PROFILE = "0429B05C-8D03-428A-825C-ED15AAFBC898";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		14EAE34115DE1EB800468F4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Vaibhav Rampuria (QZEGG5LN89)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "0429B05C-8D03-428A-825C-ED15AAFBC898";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14EAE34315DE1EB800468F4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SocialStreams/SocialStreams-Prefix.pch";
+				INFOPLIST_FILE = "SocialStreams/SocialStreams-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		14EAE34415DE1EB800468F4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SocialStreams/SocialStreams-Prefix.pch";
+				INFOPLIST_FILE = "SocialStreams/SocialStreams-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14EAE31015DE1EB700468F4A /* Build configuration list for PBXProject "SocialStreams" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14EAE34015DE1EB800468F4A /* Debug */,
+				14EAE34115DE1EB800468F4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14EAE34215DE1EB800468F4A /* Build configuration list for PBXNativeTarget "SocialStreams" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14EAE34315DE1EB800468F4A /* Debug */,
+				14EAE34415DE1EB800468F4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14EAE30D15DE1EB700468F4A /* Project object */;
+}
